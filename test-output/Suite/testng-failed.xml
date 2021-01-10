@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.flipkart.utils.ExecuteAll"/>
+  </listeners>
+  <test thread-count="5" name="IE(failed)">
+    <groups>
+      <run>
+        <include name="yello"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.test.execution.HomePageExe2">
+        <methods>
+          <include name="executeo420"/>
+        </methods>
+      </class> <!-- org.test.execution.HomePageExe2 -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
